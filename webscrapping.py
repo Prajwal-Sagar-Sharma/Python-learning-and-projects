@@ -18,3 +18,5 @@ re.raise_for_status()
 nostrachsoup=bs4.BeautifulSoup(re.text)
 elemens=nostrachsoup.select('.slogan')
 print(elemens[0].getText())
+
+bs4.
